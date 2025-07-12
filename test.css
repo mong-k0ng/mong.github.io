@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: a-otf-ryumin-pr6n, "游明朝", "YuMincho", serif;
+}
+
+
+header{
+    position:fixed;
+    bottom:0;
+    left:0;
+    display:flex;
+    align-items:center;
+    width:100%;
+    height:5vw;
+    background-color:rgba(255, 255, 255, 0);
+}
+
+.header-logo img{
+    width:20vw;
+    margin-left:3vw;
+}
+
+.header-main{
+    width:60%;
+    text-align:center;
+}
+
+.header-main button{
+    width:3vw;
+    height:3vw;
+    color:white;
+    border:1px solid grey;
+    padding:0.5vw;
+    border-radius:50%;
+    background-color:black;
+    cursor:pointer;
+}
+
+.header-main p{
+    font-size:0.6vw;
+}
+
+
+
+.first-main{
+    margin-bottom:8vw;
+}
+
+.first-main img{
+    width:100%;
+    height:30vw;
+    object-position: center 70%;
+    object-fit: cover;
+    transition:opacity 0.3s linear;
+}
+
+.first-sub{
+    background-image:url(https://www.kondo-kk.com/wp/wp-content/themes/kondo/images/top_map2.png);
+    background-repeat:no-repeat;
+    background-position-x:right;
+    background-size:auto;
+    width:100%;
+    height:auto;
+}
+
+.sub-text{
+    display:flex;
+    flex-direction:column;  
+    align-items:center;
+    margin:0vw 0vw 0vw 6vw;
+}
+
+
+.sub-text h1{              
+    height:100%;
+    font-weight:lighter;
+    font-size:2vw;
+    letter-spacing:1vw;
+    line-height:5vw;
+}
+
+.sub-image{
+    text-align:center;
+    margin:10vw;
+}
+
+.sub-image img{
+    width:100%;
+}
+
+.event-contents{
+    background-color: #ececec;
+    width:100%;
+    height:auto;
+    padding-bottom:1vw;
+}
+
+.event-title{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-left:2.5vw;
+}
+
+.event-title h1{
+    margin-top:3vw;
+    font-size:1.5vw;
+    font-weight:lighter;
+    letter-spacing:1vw;
+}
+
+.event-title img{
+    width:5vw;
+    height: 1vw;
+    margin-top:1vw;
+}
+
+.event-title a{
+    text-decoration:none;
+    font-size:0.8vw;
+    color:black;
+    cursor:pointer;
+    margin-top:1vw;
+}
+
+.event-main{
+    margin:5vw 15vw;
+    width:auto;
+}
+
+.event-a{
+    display:flex;
+    width:100%;
+    height:auto;
+    background-color:white;
+    padding:3vw;
+    text-decoration:none;
+    margin-bottom:3vw;
+}
+
+.event-a:hover{
+    background-color:rgb(255, 255, 238);
+    box-shadow: 0 0 1vw 1vw rgba(207, 207, 207, 0.3);
+}
+
+.event-image img{
+    object-fit: cover;
+    width:10vw;
+    height:10vw;
+}
+
+.eveimg-text{
+    margin:0vw 2vw;
+}
+
+.event-tag{
+    display:flex;
+    gap: 1vw;
+}
+
+.event-tag p{
+    font-size:1vw;
+}
+
+.tag-1{
+    color:white;
+    background-color:black;
+    padding:0vw 0.6vw;
+}
+
+.tag-2{
+    color:black;
+    background-color:white;
+    padding:0vw 0.6vw;
+    border:0.01vw solid black;
+}
+
+.eveimg-h1 h1{
+    margin:1vw 0vw;
+    font-size:1.5vw;
+    color:black;
+}
+
+.eve-ex p{
+    font-size:1.2vw;
+    color:black;
+    font-weight:100;
+    margin-bottom:0.3vw;
+}
+
+.eve-ex p.tag-3{
+    color:rgb(101, 101, 255); 
+    font-size:1vw;
+    border-bottom:0.01vw solid rgb(101, 101, 255);
+    width:fit-content;
+}
+
+.house-contents{
+    margin-bottom:5vw;
+}
+
+.house-img{
+    width:auto;
+    margin:5vw 10vw 2vw 10vw;
+    height:30vw;
+    background-color:rgb(187, 187, 187);
+}
+
+.house-img img{
+    width:100%;
+    height:100%;
+    object-position:center 80%;
+    object-fit:cover;
+    transition:all 0.3s ease;
+}
+
+.house-btn{
+    display:flex;
+    justify-content:center;
+    gap:3vw;
+    margin-left:2.5vw;
+    height:fit-content;
+    align-items:center;
+}
+
+.house-btn button{
+    background:none;
+    border:none;
+    font-size:2vw;
+    font-weight:100;
+    cursor: pointer;
+    color:grey;
+}
+
+.house-btn button:hover{
+    color:black;
+}
+
+.house-btn p{
+    cursor:default;
+    font-size:1vw;
+}
+
+.house-title{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-bottom:10vw;
+    margin-left:2.5vw;
+}
+
+.house-title h1{
+    cursor:default;
+    margin-top:3vw;
+    font-size:1.5vw;
+    font-weight:lighter;
+    letter-spacing:1vw;
+}
+
+.house-title img{
+    width:5vw;
+    height: 1vw;
+    margin-top:1vw;
+}
+
+.house-title p{
+    font-size:0.8vw;
+    color:black;
+    margin-top:1vw;
+}
